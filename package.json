@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rm *.html includes/*.html && pug . -o . -P"
+    "clean": "rm *.html includes/*.html",
+    "build": "pug . -o . -P"
   },
   "repository": {
     "type": "git",
